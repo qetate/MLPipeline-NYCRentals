@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/2c6de5e6ab7b4a41983e5bbde90ad87a/artifacts
+end_time: 1725837564816
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2c6de5e6ab7b4a41983e5bbde90ad87a
+run_name: intelligent-ant-863
+run_uuid: 2c6de5e6ab7b4a41983e5bbde90ad87a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725837523868
+status: 4
+tags: []
+user_id: quinntate

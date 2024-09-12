@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/8e97e68f683c4165bf59daef439636a4/artifacts
+end_time: 1725934991342
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8e97e68f683c4165bf59daef439636a4
+run_name: wise-ape-756
+run_uuid: 8e97e68f683c4165bf59daef439636a4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725934978648
+status: 3
+tags: []
+user_id: quinntate

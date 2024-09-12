@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/2ee7996ed4214527ad8f7316106346a3/artifacts
+end_time: 1725934283666
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2ee7996ed4214527ad8f7316106346a3
+run_name: bouncy-colt-137
+run_uuid: 2ee7996ed4214527ad8f7316106346a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725934263204
+status: 3
+tags: []
+user_id: quinntate

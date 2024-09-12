@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/e611f57faecd4464ace044dd45b387bd/artifacts
+end_time: 1725838417225
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e611f57faecd4464ace044dd45b387bd
+run_name: dashing-bear-129
+run_uuid: e611f57faecd4464ace044dd45b387bd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725838408458
+status: 4
+tags: []
+user_id: quinntate

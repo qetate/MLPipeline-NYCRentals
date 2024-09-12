@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/29288802534a4959b7c5c9dea6c7ad45/artifacts
+end_time: 1725836567005
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 29288802534a4959b7c5c9dea6c7ad45
+run_name: blushing-moose-802
+run_uuid: 29288802534a4959b7c5c9dea6c7ad45
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725836497574
+status: 3
+tags: []
+user_id: quinntate

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/13f8aaac9b79410a98c408fccfb9f40d/artifacts
+end_time: 1725937262793
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 13f8aaac9b79410a98c408fccfb9f40d
+run_name: youthful-gnu-531
+run_uuid: 13f8aaac9b79410a98c408fccfb9f40d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725937100980
+status: 3
+tags: []
+user_id: quinntate

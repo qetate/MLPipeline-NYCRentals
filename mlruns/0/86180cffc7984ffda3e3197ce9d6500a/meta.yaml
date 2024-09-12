@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/86180cffc7984ffda3e3197ce9d6500a/artifacts
+end_time: 1725935263388
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 86180cffc7984ffda3e3197ce9d6500a
+run_name: enchanting-ape-699
+run_uuid: 86180cffc7984ffda3e3197ce9d6500a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725935226998
+status: 4
+tags: []
+user_id: quinntate

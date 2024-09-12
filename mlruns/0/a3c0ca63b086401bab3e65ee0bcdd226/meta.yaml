@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a3c0ca63b086401bab3e65ee0bcdd226/artifacts
+end_time: 1725937147014
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a3c0ca63b086401bab3e65ee0bcdd226
+run_name: nebulous-cat-809
+run_uuid: a3c0ca63b086401bab3e65ee0bcdd226
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725937138682
+status: 3
+tags: []
+user_id: quinntate

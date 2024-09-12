@@ -1,0 +1,10 @@
+2024-09-08 16:13:17,981 Minimum price: 10, Maximum price: 350
+2024-09-08 16:13:17,989 Preparing sklearn pipeline
+Traceback (most recent call last):
+  File "/Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 295, in <module>
+    go(args)
+  File "/Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 69, in go
+    sk_pipe, processed_features = get_inference_pipeline(rf_config, args.max_tfidf_features)
+  File "/Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 169, in get_inference_pipeline
+    OneHotEncoder()
+NameError: name 'OneHotEncoder' is not defined

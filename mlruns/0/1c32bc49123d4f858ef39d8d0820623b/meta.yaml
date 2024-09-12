@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/1c32bc49123d4f858ef39d8d0820623b/artifacts
+end_time: 1725937510606
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1c32bc49123d4f858ef39d8d0820623b
+run_name: peaceful-crab-281
+run_uuid: 1c32bc49123d4f858ef39d8d0820623b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725937489178
+status: 3
+tags: []
+user_id: quinntate

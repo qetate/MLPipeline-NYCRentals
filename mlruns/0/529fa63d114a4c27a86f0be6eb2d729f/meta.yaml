@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/529fa63d114a4c27a86f0be6eb2d729f/artifacts
+end_time: 1725934004733
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 529fa63d114a4c27a86f0be6eb2d729f
+run_name: handsome-sow-883
+run_uuid: 529fa63d114a4c27a86f0be6eb2d729f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725933948823
+status: 3
+tags: []
+user_id: quinntate

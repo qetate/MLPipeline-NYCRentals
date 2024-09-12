@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/55144b5ada184f188f382a27d63250e4/artifacts
+end_time: 1725934946918
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 55144b5ada184f188f382a27d63250e4
+run_name: angry-pig-92
+run_uuid: 55144b5ada184f188f382a27d63250e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725934827085
+status: 4
+tags: []
+user_id: quinntate

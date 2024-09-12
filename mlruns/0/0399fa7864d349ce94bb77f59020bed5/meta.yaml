@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/0399fa7864d349ce94bb77f59020bed5/artifacts
+end_time: 1725838796084
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0399fa7864d349ce94bb77f59020bed5
+run_name: indecisive-ray-571
+run_uuid: 0399fa7864d349ce94bb77f59020bed5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725838674117
+status: 4
+tags: []
+user_id: quinntate

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/6a85bb2c53ea4af6b959127080c3702e/artifacts
+end_time: 1725935899320
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6a85bb2c53ea4af6b959127080c3702e
+run_name: bright-flea-53
+run_uuid: 6a85bb2c53ea4af6b959127080c3702e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725935869350
+status: 3
+tags: []
+user_id: quinntate

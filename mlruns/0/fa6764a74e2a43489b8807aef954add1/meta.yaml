@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/fa6764a74e2a43489b8807aef954add1/artifacts
+end_time: 1725838964646
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fa6764a74e2a43489b8807aef954add1
+run_name: orderly-penguin-534
+run_uuid: fa6764a74e2a43489b8807aef954add1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725838942175
+status: 4
+tags: []
+user_id: quinntate

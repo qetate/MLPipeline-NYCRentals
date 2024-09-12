@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/03717fbb241243aca076dee7a96e74ad/artifacts
+end_time: 1725839023463
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 03717fbb241243aca076dee7a96e74ad
+run_name: treasured-bird-217
+run_uuid: 03717fbb241243aca076dee7a96e74ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725838999053
+status: 4
+tags: []
+user_id: quinntate

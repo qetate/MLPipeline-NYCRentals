@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/2a36cf26113141c994d741670826ff4b/artifacts
+end_time: 1725934388036
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2a36cf26113141c994d741670826ff4b
+run_name: thoughtful-bass-334
+run_uuid: 2a36cf26113141c994d741670826ff4b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725934353781
+status: 4
+tags: []
+user_id: quinntate

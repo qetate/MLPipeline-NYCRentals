@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/7ca7d01b23fb4f7abd11a6e9ae3d108e/artifacts
+end_time: 1725935111807
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7ca7d01b23fb4f7abd11a6e9ae3d108e
+run_name: learned-fowl-573
+run_uuid: 7ca7d01b23fb4f7abd11a6e9ae3d108e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725935095371
+status: 3
+tags: []
+user_id: quinntate

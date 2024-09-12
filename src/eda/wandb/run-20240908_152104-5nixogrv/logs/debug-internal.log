@@ -1,0 +1,447 @@
+2024-09-08 15:21:04,760 INFO    StreamThr :28381 [internal.py:wandb_internal():86] W&B internal server running at pid: 28381, started at: 2024-09-08 15:21:04.759626
+2024-09-08 15:21:04,762 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status
+2024-09-08 15:21:04,765 INFO    WriterThread:28381 [datastore.py:open_for_write():85] open: /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/run-5nixogrv.wandb
+2024-09-08 15:21:04,766 DEBUG   SenderThread:28381 [sender.py:send():380] send: header
+2024-09-08 15:21:04,785 DEBUG   SenderThread:28381 [sender.py:send():380] send: run
+2024-09-08 15:21:05,093 INFO    SenderThread:28381 [dir_watcher.py:__init__():211] watching files in: /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/files
+2024-09-08 15:21:05,093 INFO    SenderThread:28381 [sender.py:_start_run_threads():1124] run started: 5nixogrv with start time 1725834064.760481
+2024-09-08 15:21:05,108 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: check_version
+2024-09-08 15:21:05,108 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: check_version
+2024-09-08 15:21:05,256 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: run_start
+2024-09-08 15:21:05,263 DEBUG   HandlerThread:28381 [system_info.py:__init__():32] System info init
+2024-09-08 15:21:05,263 DEBUG   HandlerThread:28381 [system_info.py:__init__():47] System info init done
+2024-09-08 15:21:05,263 INFO    HandlerThread:28381 [system_monitor.py:start():194] Starting system monitor
+2024-09-08 15:21:05,264 INFO    SystemMonitor:28381 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-09-08 15:21:05,264 INFO    HandlerThread:28381 [system_monitor.py:probe():214] Collecting system info
+2024-09-08 15:21:05,264 INFO    SystemMonitor:28381 [interfaces.py:start():190] Started cpu monitoring
+2024-09-08 15:21:05,265 DEBUG   HandlerThread:28381 [system_info.py:probe():196] Probing system
+2024-09-08 15:21:05,266 INFO    SystemMonitor:28381 [interfaces.py:start():190] Started disk monitoring
+2024-09-08 15:21:05,267 INFO    SystemMonitor:28381 [interfaces.py:start():190] Started gpuapple monitoring
+2024-09-08 15:21:05,268 INFO    SystemMonitor:28381 [interfaces.py:start():190] Started memory monitoring
+2024-09-08 15:21:05,269 INFO    SystemMonitor:28381 [interfaces.py:start():190] Started network monitoring
+2024-09-08 15:21:05,272 DEBUG   HandlerThread:28381 [system_info.py:_probe_git():181] Probing git
+2024-09-08 15:21:05,291 DEBUG   HandlerThread:28381 [system_info.py:_probe_git():189] Probing git done
+2024-09-08 15:21:05,291 DEBUG   HandlerThread:28381 [system_info.py:probe():244] Probing system done
+2024-09-08 15:21:05,291 DEBUG   HandlerThread:28381 [system_monitor.py:probe():223] {'os': 'macOS-14.6.1-arm64-arm-64bit', 'python': '3.10.14', 'heartbeatAt': '2024-09-08T22:21:05.266473', 'startedAt': '2024-09-08T22:21:04.748785', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'src/eda/eda.ipynb', 'codePathLocal': None, 'root': '/Users/quinntate/Project-Build-an-ML-Pipeline-Starter', 'git': {'remote': 'https://github.com/qetate/Project-Build-an-ML-Pipeline-Starter.git', 'commit': '0936351046db1e8e7587aa16f516b26a9374b3da'}, 'email': 'qetate172@gmail.com', 'host': 'Quinns-MacBook-Pro.local', 'username': 'quinntate', 'executable': '/opt/anaconda3/envs/nyc_airbnb_dev/bin/python', 'cpu_count': 11, 'cpu_count_logical': 11, 'cpu_freq': {'current': 4056, 'min': 696, 'max': 4056}, 'cpu_freq_per_core': [{'current': 4056, 'min': 696, 'max': 4056}], 'disk': {'/': {'total': 460.4317207336426, 'used': 227.47930145263672}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 18.0}}
+2024-09-08 15:21:05,291 INFO    HandlerThread:28381 [system_monitor.py:probe():224] Finished collecting system info
+2024-09-08 15:21:05,291 INFO    HandlerThread:28381 [system_monitor.py:probe():227] Publishing system info
+2024-09-08 15:21:05,291 DEBUG   HandlerThread:28381 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-09-08 15:21:05,291 DEBUG   HandlerThread:28381 [system_info.py:_save_pip():68] Saving pip packages done
+2024-09-08 15:21:05,291 DEBUG   HandlerThread:28381 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-09-08 15:21:06,094 INFO    Thread-12 :28381 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/files/conda-environment.yaml
+2024-09-08 15:21:06,094 INFO    Thread-12 :28381 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/files/requirements.txt
+2024-09-08 15:21:06,321 DEBUG   HandlerThread:28381 [system_info.py:_save_conda():87] Saving conda packages done
+2024-09-08 15:21:06,321 DEBUG   HandlerThread:28381 [system_info.py:_save_code():90] Saving code
+2024-09-08 15:21:06,321 WARNING HandlerThread:28381 [system_info.py:_save_code():92] unable to save code -- program entry not found
+2024-09-08 15:21:06,321 DEBUG   HandlerThread:28381 [system_info.py:_save_patches():128] Saving git patches
+2024-09-08 15:21:06,392 DEBUG   HandlerThread:28381 [system_info.py:_save_patches():170] Saving git patches done
+2024-09-08 15:21:06,393 INFO    HandlerThread:28381 [system_monitor.py:probe():229] Finished publishing system info
+2024-09-08 15:21:06,394 DEBUG   SenderThread:28381 [sender.py:send():380] send: files
+2024-09-08 15:21:06,394 INFO    SenderThread:28381 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2024-09-08 15:21:06,402 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-08 15:21:06,402 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-08 15:21:06,402 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: stop_status
+2024-09-08 15:21:06,631 DEBUG   SenderThread:28381 [sender.py:send():380] send: telemetry
+2024-09-08 15:21:06,816 INFO    wandb-upload_0:28381 [upload_job.py:push():131] Uploaded file /var/folders/0c/9qxddwwx0jxg3gh6d9k3q2w40000gn/T/tmpnhkyd8zpwandb/l79bhnpc-wandb-metadata.json
+2024-09-08 15:21:06,916 DEBUG   SenderThread:28381 [sender.py:send():380] send: use_artifact
+2024-09-08 15:21:07,100 INFO    Thread-12 :28381 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/files/conda-environment.yaml
+2024-09-08 15:21:07,100 INFO    Thread-12 :28381 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/files/wandb-metadata.json
+2024-09-08 15:21:07,259 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: pause
+2024-09-08 15:21:07,259 INFO    HandlerThread:28381 [handler.py:handle_request_pause():705] stopping system metrics thread
+2024-09-08 15:21:07,259 INFO    HandlerThread:28381 [system_monitor.py:finish():203] Stopping system monitor
+2024-09-08 15:21:07,259 INFO    HandlerThread:28381 [interfaces.py:finish():202] Joined cpu monitor
+2024-09-08 15:21:07,260 DEBUG   SystemMonitor:28381 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-09-08 15:21:07,260 INFO    HandlerThread:28381 [interfaces.py:finish():202] Joined disk monitor
+2024-09-08 15:21:07,260 DEBUG   SystemMonitor:28381 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-09-08 15:21:07,260 INFO    HandlerThread:28381 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-09-08 15:21:07,260 DEBUG   SystemMonitor:28381 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-09-08 15:21:07,260 INFO    HandlerThread:28381 [interfaces.py:finish():202] Joined memory monitor
+2024-09-08 15:21:07,260 INFO    HandlerThread:28381 [interfaces.py:finish():202] Joined network monitor
+2024-09-08 15:21:07,260 DEBUG   SenderThread:28381 [sender.py:send():380] send: telemetry
+2024-09-08 15:21:07,260 DEBUG   SenderThread:28381 [sender.py:send():380] send: stats
+2024-09-08 15:21:10,270 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:21:15,290 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:21:20,310 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:21:21,409 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-08 15:21:21,410 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-08 15:21:21,411 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: stop_status
+2024-09-08 15:21:25,525 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:21:30,548 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:21:35,572 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:21:36,217 INFO    Thread-12 :28381 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/files/config.yaml
+2024-09-08 15:21:36,408 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-08 15:21:36,408 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: stop_status
+2024-09-08 15:21:36,412 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-08 15:21:41,599 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:21:46,625 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:21:51,413 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-08 15:21:51,414 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-08 15:21:51,415 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: stop_status
+2024-09-08 15:21:52,581 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:21:57,600 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:22:02,620 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:22:06,418 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-08 15:22:06,418 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-08 15:22:06,419 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: stop_status
+2024-09-08 15:22:07,649 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:22:12,664 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:22:17,682 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:22:21,424 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-08 15:22:21,425 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-08 15:22:21,426 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: stop_status
+2024-09-08 15:22:23,643 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:22:28,656 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:22:33,677 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:22:36,424 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-08 15:22:36,425 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: stop_status
+2024-09-08 15:22:36,428 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-08 15:22:39,622 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:22:44,642 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:22:49,665 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:22:51,428 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-08 15:22:51,429 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: stop_status
+2024-09-08 15:22:51,433 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-08 15:22:55,627 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:23:00,639 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:23:05,655 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:23:06,433 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-08 15:23:06,434 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: stop_status
+2024-09-08 15:23:06,438 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-08 15:23:06,498 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: resume
+2024-09-08 15:23:06,499 INFO    HandlerThread:28381 [handler.py:handle_request_resume():696] starting system metrics thread
+2024-09-08 15:23:06,499 INFO    HandlerThread:28381 [system_monitor.py:start():194] Starting system monitor
+2024-09-08 15:23:06,499 INFO    SystemMonitor:28381 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-09-08 15:23:06,501 INFO    SystemMonitor:28381 [interfaces.py:start():190] Started cpu monitoring
+2024-09-08 15:23:06,501 INFO    SystemMonitor:28381 [interfaces.py:start():190] Started disk monitoring
+2024-09-08 15:23:06,503 INFO    SystemMonitor:28381 [interfaces.py:start():190] Started gpuapple monitoring
+2024-09-08 15:23:06,508 INFO    SystemMonitor:28381 [interfaces.py:start():190] Started memory monitoring
+2024-09-08 15:23:06,511 INFO    SystemMonitor:28381 [interfaces.py:start():190] Started network monitoring
+2024-09-08 15:23:06,650 INFO    Thread-12 :28381 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/files/output.log
+2024-09-08 15:23:08,658 INFO    Thread-12 :28381 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/files/output.log
+2024-09-08 15:23:10,694 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:23:15,716 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:23:20,766 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:23:21,437 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-08 15:23:21,437 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-08 15:23:21,438 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: stop_status
+2024-09-08 15:23:25,806 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:23:30,847 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:23:35,879 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:23:36,437 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-08 15:23:36,443 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-08 15:23:36,444 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: stop_status
+2024-09-08 15:23:40,931 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:23:45,948 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:23:50,979 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:23:51,442 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-08 15:23:51,447 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-08 15:23:51,448 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: stop_status
+2024-09-08 15:23:56,010 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:24:01,024 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:24:06,068 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:24:06,447 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-08 15:24:06,452 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-08 15:24:06,453 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: stop_status
+2024-09-08 15:24:06,514 DEBUG   SystemMonitor:28381 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-09-08 15:24:06,637 DEBUG   SenderThread:28381 [sender.py:send():380] send: stats
+2024-09-08 15:24:11,084 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:24:16,092 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:24:21,122 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:24:21,452 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-08 15:24:21,457 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-08 15:24:21,457 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: stop_status
+2024-09-08 15:24:26,159 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:24:31,161 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:24:36,205 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:24:36,457 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-08 15:24:36,461 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-08 15:24:36,462 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: stop_status
+2024-09-08 15:24:36,607 DEBUG   SenderThread:28381 [sender.py:send():380] send: stats
+2024-09-08 15:24:41,248 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:24:46,298 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:24:51,343 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:24:51,460 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-08 15:24:51,464 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-08 15:24:51,464 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: stop_status
+2024-09-08 15:24:56,377 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:25:01,396 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:25:06,435 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:25:06,464 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-08 15:25:06,469 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-08 15:25:06,469 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: stop_status
+2024-09-08 15:25:06,583 DEBUG   SenderThread:28381 [sender.py:send():380] send: stats
+2024-09-08 15:25:11,480 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:25:16,519 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:25:21,468 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-08 15:25:21,474 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-08 15:25:21,474 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: stop_status
+2024-09-08 15:25:21,661 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:25:26,677 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:25:31,692 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:25:36,474 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-08 15:25:36,479 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-08 15:25:36,479 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: stop_status
+2024-09-08 15:25:36,638 DEBUG   SenderThread:28381 [sender.py:send():380] send: stats
+2024-09-08 15:25:36,705 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:25:41,744 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:25:46,752 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:25:51,478 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-08 15:25:51,481 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-08 15:25:51,481 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: stop_status
+2024-09-08 15:25:51,765 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:25:56,773 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:26:01,790 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:26:06,484 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-08 15:26:06,486 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-08 15:26:06,487 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: stop_status
+2024-09-08 15:26:06,615 DEBUG   SenderThread:28381 [sender.py:send():380] send: stats
+2024-09-08 15:26:06,792 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:26:11,830 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:26:16,878 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:26:21,489 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-08 15:26:21,490 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-08 15:26:21,490 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: stop_status
+2024-09-08 15:26:21,917 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:26:26,947 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:26:31,949 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:26:36,491 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-08 15:26:36,491 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-08 15:26:36,492 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: stop_status
+2024-09-08 15:26:36,596 DEBUG   SenderThread:28381 [sender.py:send():380] send: stats
+2024-09-08 15:26:36,993 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:26:42,024 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:26:47,080 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:26:51,491 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-08 15:26:51,492 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: stop_status
+2024-09-08 15:26:51,496 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-08 15:26:52,083 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:26:57,112 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:27:02,159 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:27:06,484 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-08 15:27:06,485 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: stop_status
+2024-09-08 15:27:06,488 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-08 15:27:06,615 DEBUG   SenderThread:28381 [sender.py:send():380] send: stats
+2024-09-08 15:27:07,166 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:27:12,170 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:27:17,197 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:27:21,481 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-08 15:27:21,482 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: stop_status
+2024-09-08 15:27:21,487 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-08 15:27:22,213 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:27:27,250 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:27:32,266 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:27:36,099 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: pause
+2024-09-08 15:27:36,100 INFO    HandlerThread:28381 [handler.py:handle_request_pause():705] stopping system metrics thread
+2024-09-08 15:27:36,100 INFO    HandlerThread:28381 [system_monitor.py:finish():203] Stopping system monitor
+2024-09-08 15:27:36,100 DEBUG   SystemMonitor:28381 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-09-08 15:27:36,101 INFO    HandlerThread:28381 [interfaces.py:finish():202] Joined cpu monitor
+2024-09-08 15:27:36,102 DEBUG   SystemMonitor:28381 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-09-08 15:27:36,102 INFO    HandlerThread:28381 [interfaces.py:finish():202] Joined disk monitor
+2024-09-08 15:27:36,105 INFO    HandlerThread:28381 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-09-08 15:27:36,105 INFO    HandlerThread:28381 [interfaces.py:finish():202] Joined memory monitor
+2024-09-08 15:27:36,105 INFO    HandlerThread:28381 [interfaces.py:finish():202] Joined network monitor
+2024-09-08 15:27:36,106 DEBUG   SenderThread:28381 [sender.py:send():380] send: stats
+2024-09-08 15:27:36,111 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: resume
+2024-09-08 15:27:36,111 INFO    HandlerThread:28381 [handler.py:handle_request_resume():696] starting system metrics thread
+2024-09-08 15:27:36,111 INFO    HandlerThread:28381 [system_monitor.py:start():194] Starting system monitor
+2024-09-08 15:27:36,111 INFO    SystemMonitor:28381 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-09-08 15:27:36,112 INFO    SystemMonitor:28381 [interfaces.py:start():190] Started cpu monitoring
+2024-09-08 15:27:36,112 INFO    SystemMonitor:28381 [interfaces.py:start():190] Started disk monitoring
+2024-09-08 15:27:36,117 INFO    SystemMonitor:28381 [interfaces.py:start():190] Started gpuapple monitoring
+2024-09-08 15:27:36,119 INFO    SystemMonitor:28381 [interfaces.py:start():190] Started memory monitoring
+2024-09-08 15:27:36,120 INFO    SystemMonitor:28381 [interfaces.py:start():190] Started network monitoring
+2024-09-08 15:27:36,478 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-08 15:27:36,479 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: stop_status
+2024-09-08 15:27:36,487 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-08 15:27:36,755 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: pause
+2024-09-08 15:27:36,755 INFO    HandlerThread:28381 [handler.py:handle_request_pause():705] stopping system metrics thread
+2024-09-08 15:27:36,755 INFO    HandlerThread:28381 [system_monitor.py:finish():203] Stopping system monitor
+2024-09-08 15:27:36,755 DEBUG   SystemMonitor:28381 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-09-08 15:27:36,755 INFO    HandlerThread:28381 [interfaces.py:finish():202] Joined cpu monitor
+2024-09-08 15:27:36,755 DEBUG   SystemMonitor:28381 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-09-08 15:27:36,756 INFO    HandlerThread:28381 [interfaces.py:finish():202] Joined disk monitor
+2024-09-08 15:27:36,756 DEBUG   SystemMonitor:28381 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-09-08 15:27:36,796 INFO    HandlerThread:28381 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-09-08 15:27:36,796 INFO    HandlerThread:28381 [interfaces.py:finish():202] Joined memory monitor
+2024-09-08 15:27:36,796 INFO    HandlerThread:28381 [interfaces.py:finish():202] Joined network monitor
+2024-09-08 15:27:36,796 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: resume
+2024-09-08 15:27:36,796 INFO    HandlerThread:28381 [handler.py:handle_request_resume():696] starting system metrics thread
+2024-09-08 15:27:36,796 INFO    HandlerThread:28381 [system_monitor.py:start():194] Starting system monitor
+2024-09-08 15:27:36,797 INFO    SystemMonitor:28381 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-09-08 15:27:36,797 DEBUG   SenderThread:28381 [sender.py:send():380] send: stats
+2024-09-08 15:27:36,797 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: pause
+2024-09-08 15:27:36,797 INFO    SystemMonitor:28381 [interfaces.py:start():190] Started cpu monitoring
+2024-09-08 15:27:36,797 INFO    HandlerThread:28381 [handler.py:handle_request_pause():705] stopping system metrics thread
+2024-09-08 15:27:36,797 INFO    SystemMonitor:28381 [interfaces.py:start():190] Started disk monitoring
+2024-09-08 15:27:36,798 INFO    HandlerThread:28381 [system_monitor.py:finish():203] Stopping system monitor
+2024-09-08 15:27:36,798 INFO    HandlerThread:28381 [interfaces.py:finish():202] Joined cpu monitor
+2024-09-08 15:27:36,798 INFO    SystemMonitor:28381 [interfaces.py:start():190] Started gpuapple monitoring
+2024-09-08 15:27:36,798 DEBUG   SystemMonitor:28381 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-09-08 15:27:36,798 DEBUG   SystemMonitor:28381 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-09-08 15:27:36,798 DEBUG   SystemMonitor:28381 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-09-08 15:27:36,798 INFO    HandlerThread:28381 [interfaces.py:finish():202] Joined disk monitor
+2024-09-08 15:27:37,553 INFO    HandlerThread:28381 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-09-08 15:27:37,554 DEBUG   SenderThread:28381 [sender.py:send():380] send: stats
+2024-09-08 15:27:37,554 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:27:37,815 INFO    Thread-12 :28381 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/files/output.log
+2024-09-08 15:27:38,318 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: resume
+2024-09-08 15:27:38,318 INFO    HandlerThread:28381 [handler.py:handle_request_resume():696] starting system metrics thread
+2024-09-08 15:27:38,318 INFO    HandlerThread:28381 [system_monitor.py:start():194] Starting system monitor
+2024-09-08 15:27:38,319 INFO    SystemMonitor:28381 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-09-08 15:27:38,320 INFO    SystemMonitor:28381 [interfaces.py:start():190] Started cpu monitoring
+2024-09-08 15:27:38,321 INFO    SystemMonitor:28381 [interfaces.py:start():190] Started disk monitoring
+2024-09-08 15:27:38,323 INFO    SystemMonitor:28381 [interfaces.py:start():190] Started gpuapple monitoring
+2024-09-08 15:27:38,329 INFO    SystemMonitor:28381 [interfaces.py:start():190] Started memory monitoring
+2024-09-08 15:27:38,331 INFO    SystemMonitor:28381 [interfaces.py:start():190] Started network monitoring
+2024-09-08 15:27:38,343 DEBUG   SenderThread:28381 [sender.py:send():380] send: telemetry
+2024-09-08 15:27:38,377 DEBUG   SenderThread:28381 [sender.py:send():380] send: config
+2024-09-08 15:27:38,380 DEBUG   SenderThread:28381 [sender.py:send():380] send: exit
+2024-09-08 15:27:38,380 INFO    SenderThread:28381 [sender.py:send_exit():585] handling exit code: 0
+2024-09-08 15:27:38,380 INFO    SenderThread:28381 [sender.py:send_exit():587] handling runtime: 273
+2024-09-08 15:27:38,380 INFO    SenderThread:28381 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-09-08 15:27:38,380 INFO    SenderThread:28381 [sender.py:send_exit():593] send defer
+2024-09-08 15:27:38,380 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: defer
+2024-09-08 15:27:38,380 INFO    HandlerThread:28381 [handler.py:handle_request_defer():172] handle defer: 0
+2024-09-08 15:27:38,381 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: defer
+2024-09-08 15:27:38,381 INFO    SenderThread:28381 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-09-08 15:27:38,381 INFO    SenderThread:28381 [sender.py:transition_state():613] send defer: 1
+2024-09-08 15:27:38,381 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: defer
+2024-09-08 15:27:38,381 INFO    HandlerThread:28381 [handler.py:handle_request_defer():172] handle defer: 1
+2024-09-08 15:27:38,381 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: defer
+2024-09-08 15:27:38,381 INFO    SenderThread:28381 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-09-08 15:27:38,381 INFO    SenderThread:28381 [sender.py:transition_state():613] send defer: 2
+2024-09-08 15:27:38,381 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: defer
+2024-09-08 15:27:38,381 INFO    HandlerThread:28381 [handler.py:handle_request_defer():172] handle defer: 2
+2024-09-08 15:27:38,381 INFO    HandlerThread:28381 [system_monitor.py:finish():203] Stopping system monitor
+2024-09-08 15:27:38,381 INFO    HandlerThread:28381 [interfaces.py:finish():202] Joined cpu monitor
+2024-09-08 15:27:38,381 DEBUG   SystemMonitor:28381 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-09-08 15:27:38,381 INFO    HandlerThread:28381 [interfaces.py:finish():202] Joined disk monitor
+2024-09-08 15:27:38,381 DEBUG   SystemMonitor:28381 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-09-08 15:27:38,381 DEBUG   SystemMonitor:28381 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-09-08 15:27:38,817 INFO    Thread-12 :28381 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/files/code/_session_history.ipynb
+2024-09-08 15:27:38,817 INFO    Thread-12 :28381 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/files/wandb-summary.json
+2024-09-08 15:27:38,817 INFO    Thread-12 :28381 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/files/code
+2024-09-08 15:27:39,423 INFO    HandlerThread:28381 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-09-08 15:27:39,423 INFO    HandlerThread:28381 [interfaces.py:finish():202] Joined memory monitor
+2024-09-08 15:27:39,423 INFO    HandlerThread:28381 [interfaces.py:finish():202] Joined network monitor
+2024-09-08 15:27:39,423 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-08 15:27:39,423 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: defer
+2024-09-08 15:27:39,423 INFO    SenderThread:28381 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-09-08 15:27:39,423 INFO    SenderThread:28381 [sender.py:transition_state():613] send defer: 3
+2024-09-08 15:27:39,423 DEBUG   SenderThread:28381 [sender.py:send():380] send: stats
+2024-09-08 15:27:39,423 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: poll_exit
+2024-09-08 15:27:39,423 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: defer
+2024-09-08 15:27:39,423 INFO    HandlerThread:28381 [handler.py:handle_request_defer():172] handle defer: 3
+2024-09-08 15:27:39,424 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: defer
+2024-09-08 15:27:39,424 INFO    SenderThread:28381 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-09-08 15:27:39,424 INFO    SenderThread:28381 [sender.py:transition_state():613] send defer: 4
+2024-09-08 15:27:39,424 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: defer
+2024-09-08 15:27:39,424 INFO    HandlerThread:28381 [handler.py:handle_request_defer():172] handle defer: 4
+2024-09-08 15:27:39,424 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: defer
+2024-09-08 15:27:39,424 INFO    SenderThread:28381 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-09-08 15:27:39,424 INFO    SenderThread:28381 [sender.py:transition_state():613] send defer: 5
+2024-09-08 15:27:39,424 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: defer
+2024-09-08 15:27:39,424 INFO    HandlerThread:28381 [handler.py:handle_request_defer():172] handle defer: 5
+2024-09-08 15:27:39,424 DEBUG   SenderThread:28381 [sender.py:send():380] send: summary
+2024-09-08 15:27:39,424 INFO    SenderThread:28381 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-09-08 15:27:39,424 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: defer
+2024-09-08 15:27:39,424 INFO    SenderThread:28381 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-09-08 15:27:39,424 INFO    SenderThread:28381 [sender.py:transition_state():613] send defer: 6
+2024-09-08 15:27:39,424 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: defer
+2024-09-08 15:27:39,424 INFO    HandlerThread:28381 [handler.py:handle_request_defer():172] handle defer: 6
+2024-09-08 15:27:39,424 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: defer
+2024-09-08 15:27:39,424 INFO    SenderThread:28381 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-09-08 15:27:39,426 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: status_report
+2024-09-08 15:27:39,515 INFO    SenderThread:28381 [sender.py:transition_state():613] send defer: 7
+2024-09-08 15:27:39,515 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: defer
+2024-09-08 15:27:39,515 INFO    HandlerThread:28381 [handler.py:handle_request_defer():172] handle defer: 7
+2024-09-08 15:27:39,515 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: defer
+2024-09-08 15:27:39,515 INFO    SenderThread:28381 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-09-08 15:27:39,824 INFO    Thread-12 :28381 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/files/wandb-summary.json
+2024-09-08 15:27:39,825 INFO    Thread-12 :28381 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/files/config.yaml
+2024-09-08 15:27:40,391 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-08 15:27:41,239 INFO    SenderThread:28381 [sender.py:transition_state():613] send defer: 8
+2024-09-08 15:27:41,239 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: poll_exit
+2024-09-08 15:27:41,240 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: defer
+2024-09-08 15:27:41,240 INFO    HandlerThread:28381 [handler.py:handle_request_defer():172] handle defer: 8
+2024-09-08 15:27:41,241 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: defer
+2024-09-08 15:27:41,241 INFO    SenderThread:28381 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-09-08 15:27:41,242 INFO    SenderThread:28381 [job_builder.py:build():298] Attempting to build job artifact
+2024-09-08 15:27:41,243 INFO    SenderThread:28381 [job_builder.py:_get_source_type():428] is repo sourced job
+2024-09-08 15:27:41,244 INFO    SenderThread:28381 [job_builder.py:_get_program_relpath():446] run is notebook based run
+2024-09-08 15:27:41,287 INFO    SenderThread:28381 [job_builder.py:build():404] adding wandb-job metadata file
+2024-09-08 15:27:41,290 INFO    SenderThread:28381 [sender.py:transition_state():613] send defer: 9
+2024-09-08 15:27:41,290 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: defer
+2024-09-08 15:27:41,290 INFO    HandlerThread:28381 [handler.py:handle_request_defer():172] handle defer: 9
+2024-09-08 15:27:41,290 DEBUG   SenderThread:28381 [sender.py:send():380] send: artifact
+2024-09-08 15:27:41,397 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-08 15:27:41,831 INFO    Thread-12 :28381 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/files/output.log
+2024-09-08 15:27:42,979 INFO    wandb-upload_1:28381 [upload_job.py:push():89] Uploaded file /Users/quinntate/Library/Application Support/wandb/artifacts/staging/tmprnm2pn0v
+2024-09-08 15:27:42,984 INFO    wandb-upload_0:28381 [upload_job.py:push():89] Uploaded file /Users/quinntate/Library/Application Support/wandb/artifacts/staging/tmp3rxjag_v
+2024-09-08 15:27:43,847 INFO    SenderThread:28381 [sender.py:send_artifact():1458] sent artifact job-https___github.com_qetate_Project-Build-an-ML-Pipeline-Starter.git_src_eda_eda.ipynb - {'id': 'QXJ0aWZhY3Q6MTE5OTcwMjk4Ng==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQzNDg2MjQ4Ng==', 'latestArtifact': None}}
+2024-09-08 15:27:43,848 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: defer
+2024-09-08 15:27:43,848 INFO    SenderThread:28381 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-09-08 15:27:43,848 INFO    SenderThread:28381 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-09-08 15:27:44,843 INFO    SenderThread:28381 [dir_watcher.py:finish():388] scan: /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/files
+2024-09-08 15:27:44,844 INFO    SenderThread:28381 [dir_watcher.py:finish():402] scan save: /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/files/requirements.txt requirements.txt
+2024-09-08 15:27:44,844 INFO    SenderThread:28381 [dir_watcher.py:finish():402] scan save: /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/files/output.log output.log
+2024-09-08 15:27:44,847 INFO    SenderThread:28381 [dir_watcher.py:finish():402] scan save: /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/files/config.yaml config.yaml
+2024-09-08 15:27:44,852 INFO    SenderThread:28381 [dir_watcher.py:finish():402] scan save: /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/files/wandb-summary.json wandb-summary.json
+2024-09-08 15:27:44,855 INFO    SenderThread:28381 [dir_watcher.py:finish():402] scan save: /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/files/conda-environment.yaml conda-environment.yaml
+2024-09-08 15:27:44,859 INFO    SenderThread:28381 [dir_watcher.py:finish():402] scan save: /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/files/wandb-metadata.json wandb-metadata.json
+2024-09-08 15:27:44,861 INFO    SenderThread:28381 [dir_watcher.py:finish():402] scan save: /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/files/code/_session_history.ipynb code/_session_history.ipynb
+2024-09-08 15:27:44,861 INFO    SenderThread:28381 [sender.py:transition_state():613] send defer: 10
+2024-09-08 15:27:44,861 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: poll_exit
+2024-09-08 15:27:44,862 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: defer
+2024-09-08 15:27:44,864 INFO    HandlerThread:28381 [handler.py:handle_request_defer():172] handle defer: 10
+2024-09-08 15:27:44,864 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: defer
+2024-09-08 15:27:44,864 INFO    SenderThread:28381 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-09-08 15:27:44,864 INFO    SenderThread:28381 [file_pusher.py:finish():175] shutting down file pusher
+2024-09-08 15:27:45,168 INFO    wandb-upload_1:28381 [upload_job.py:push():131] Uploaded file /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/files/requirements.txt
+2024-09-08 15:27:45,187 INFO    wandb-upload_0:28381 [upload_job.py:push():131] Uploaded file /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/files/output.log
+2024-09-08 15:27:45,382 INFO    wandb-upload_5:28381 [upload_job.py:push():131] Uploaded file /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/files/code/_session_history.ipynb
+2024-09-08 15:27:45,384 INFO    wandb-upload_3:28381 [upload_job.py:push():131] Uploaded file /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/files/wandb-summary.json
+2024-09-08 15:27:45,413 INFO    wandb-upload_4:28381 [upload_job.py:push():131] Uploaded file /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/files/conda-environment.yaml
+2024-09-08 15:27:45,415 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-08 15:27:45,415 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: poll_exit
+2024-09-08 15:27:45,444 INFO    wandb-upload_2:28381 [upload_job.py:push():131] Uploaded file /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/files/config.yaml
+2024-09-08 15:27:45,648 INFO    Thread-11 (_thread_body):28381 [sender.py:transition_state():613] send defer: 11
+2024-09-08 15:27:45,649 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: defer
+2024-09-08 15:27:45,649 INFO    HandlerThread:28381 [handler.py:handle_request_defer():172] handle defer: 11
+2024-09-08 15:27:45,650 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: defer
+2024-09-08 15:27:45,650 INFO    SenderThread:28381 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-09-08 15:27:45,650 INFO    SenderThread:28381 [file_pusher.py:join():181] waiting for file pusher
+2024-09-08 15:27:45,651 INFO    SenderThread:28381 [sender.py:transition_state():613] send defer: 12
+2024-09-08 15:27:45,651 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: defer
+2024-09-08 15:27:45,651 INFO    HandlerThread:28381 [handler.py:handle_request_defer():172] handle defer: 12
+2024-09-08 15:27:45,652 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: defer
+2024-09-08 15:27:45,652 INFO    SenderThread:28381 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-09-08 15:27:45,652 INFO    SenderThread:28381 [file_stream.py:finish():595] file stream finish called
+2024-09-08 15:27:46,039 INFO    SenderThread:28381 [file_stream.py:finish():599] file stream finish is done
+2024-09-08 15:27:46,039 INFO    SenderThread:28381 [sender.py:transition_state():613] send defer: 13
+2024-09-08 15:27:46,040 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: defer
+2024-09-08 15:27:46,040 INFO    HandlerThread:28381 [handler.py:handle_request_defer():172] handle defer: 13
+2024-09-08 15:27:46,040 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: defer
+2024-09-08 15:27:46,041 INFO    SenderThread:28381 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-09-08 15:27:46,041 INFO    SenderThread:28381 [sender.py:transition_state():613] send defer: 14
+2024-09-08 15:27:46,042 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: defer
+2024-09-08 15:27:46,042 DEBUG   SenderThread:28381 [sender.py:send():380] send: final
+2024-09-08 15:27:46,042 INFO    HandlerThread:28381 [handler.py:handle_request_defer():172] handle defer: 14
+2024-09-08 15:27:46,042 DEBUG   SenderThread:28381 [sender.py:send():380] send: footer
+2024-09-08 15:27:46,042 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: defer
+2024-09-08 15:27:46,043 INFO    SenderThread:28381 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-09-08 15:27:46,044 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-08 15:27:46,045 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: poll_exit
+2024-09-08 15:27:46,046 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-08 15:27:46,047 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: server_info
+2024-09-08 15:27:46,048 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: get_summary
+2024-09-08 15:27:46,048 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: server_info
+2024-09-08 15:27:46,048 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: sampled_history
+2024-09-08 15:27:46,051 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: job_info
+2024-09-08 15:27:46,134 DEBUG   SenderThread:28381 [sender.py:send_request():407] send_request: job_info
+2024-09-08 15:27:46,136 DEBUG   HandlerThread:28381 [handler.py:handle_request():146] handle_request: shutdown
+2024-09-08 15:27:46,136 INFO    HandlerThread:28381 [handler.py:finish():866] shutting down handler
+2024-09-08 15:27:47,053 INFO    WriterThread:28381 [datastore.py:close():294] close: /Users/quinntate/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240908_152104-5nixogrv/run-5nixogrv.wandb
+2024-09-08 15:27:47,139 INFO    SenderThread:28381 [sender.py:finish():1536] shutting down sender
+2024-09-08 15:27:47,140 INFO    SenderThread:28381 [file_pusher.py:finish():175] shutting down file pusher
+2024-09-08 15:27:47,140 INFO    SenderThread:28381 [file_pusher.py:join():181] waiting for file pusher

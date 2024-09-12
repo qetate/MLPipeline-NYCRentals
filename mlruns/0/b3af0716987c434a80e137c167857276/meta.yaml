@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/b3af0716987c434a80e137c167857276/artifacts
+end_time: 1725933195778
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b3af0716987c434a80e137c167857276
+run_name: exultant-fawn-663
+run_uuid: b3af0716987c434a80e137c167857276
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725933185826
+status: 3
+tags: []
+user_id: quinntate

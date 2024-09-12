@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/88d35550eeee489290474c5a29e1baf1/artifacts
+end_time: 1725837225480
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 88d35550eeee489290474c5a29e1baf1
+run_name: overjoyed-elk-522
+run_uuid: 88d35550eeee489290474c5a29e1baf1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725837168598
+status: 4
+tags: []
+user_id: quinntate

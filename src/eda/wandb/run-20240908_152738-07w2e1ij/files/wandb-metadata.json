@@ -1,0 +1,48 @@
+{
+    "os": "macOS-14.6.1-arm64-arm-64bit",
+    "python": "3.10.14",
+    "heartbeatAt": "2024-09-08T22:27:48.644837",
+    "startedAt": "2024-09-08T22:27:38.334883",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "src/eda/eda.ipynb",
+    "codePathLocal": null,
+    "root": "/Users/quinntate/Project-Build-an-ML-Pipeline-Starter",
+    "git": {
+        "remote": "https://github.com/qetate/Project-Build-an-ML-Pipeline-Starter.git",
+        "commit": "0936351046db1e8e7587aa16f516b26a9374b3da"
+    },
+    "email": "qetate172@gmail.com",
+    "host": "Quinns-MacBook-Pro.local",
+    "username": "quinntate",
+    "executable": "/opt/anaconda3/envs/nyc_airbnb_dev/bin/python",
+    "cpu_count": 11,
+    "cpu_count_logical": 11,
+    "cpu_freq": {
+        "current": 4056,
+        "min": 696,
+        "max": 4056
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4056,
+            "min": 696,
+            "max": 4056
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 460.4317207336426,
+            "used": 227.52217483520508
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 18.0
+    }
+}

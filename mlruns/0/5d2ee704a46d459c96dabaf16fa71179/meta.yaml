@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/5d2ee704a46d459c96dabaf16fa71179/artifacts
+end_time: 1725836902113
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5d2ee704a46d459c96dabaf16fa71179
+run_name: abundant-lark-32
+run_uuid: 5d2ee704a46d459c96dabaf16fa71179
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725836901423
+status: 4
+tags: []
+user_id: quinntate

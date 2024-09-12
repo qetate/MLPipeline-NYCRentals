@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/74895859fef44a47af854b454c934a64/artifacts
+end_time: 1725838091152
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 74895859fef44a47af854b454c934a64
+run_name: enthused-asp-186
+run_uuid: 74895859fef44a47af854b454c934a64
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725838082058
+status: 4
+tags: []
+user_id: quinntate

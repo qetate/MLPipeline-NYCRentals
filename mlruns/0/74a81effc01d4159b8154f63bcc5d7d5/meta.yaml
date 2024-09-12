@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/74a81effc01d4159b8154f63bcc5d7d5/artifacts
+end_time: 1725937166584
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 74a81effc01d4159b8154f63bcc5d7d5
+run_name: incongruous-wren-780
+run_uuid: 74a81effc01d4159b8154f63bcc5d7d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725937148731
+status: 3
+tags: []
+user_id: quinntate

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/118c6614c9d34e46bf9f51c5d55bf1e3/artifacts
+end_time: 1725838998976
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 118c6614c9d34e46bf9f51c5d55bf1e3
+run_name: wistful-lynx-357
+run_uuid: 118c6614c9d34e46bf9f51c5d55bf1e3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725838964726
+status: 4
+tags: []
+user_id: quinntate

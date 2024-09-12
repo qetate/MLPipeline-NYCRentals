@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f6258ebd15a1458e8c652551787e58fc/artifacts
+end_time: 1725937138656
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f6258ebd15a1458e8c652551787e58fc
+run_name: puzzled-skink-431
+run_uuid: f6258ebd15a1458e8c652551787e58fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725937123999
+status: 3
+tags: []
+user_id: quinntate

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/0841d0acf5c943598ea2d0c459cf6197/artifacts
+end_time: 1725836903496
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0841d0acf5c943598ea2d0c459cf6197
+run_name: skittish-robin-258
+run_uuid: 0841d0acf5c943598ea2d0c459cf6197
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725836902881
+status: 4
+tags: []
+user_id: quinntate

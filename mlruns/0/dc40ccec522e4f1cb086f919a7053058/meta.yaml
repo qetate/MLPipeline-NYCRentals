@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/dc40ccec522e4f1cb086f919a7053058/artifacts
+end_time: 1725833387921
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dc40ccec522e4f1cb086f919a7053058
+run_name: bald-stoat-428
+run_uuid: dc40ccec522e4f1cb086f919a7053058
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725833322144
+status: 3
+tags: []
+user_id: quinntate

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/43b62f92c62941bf8f00d3bb2c920d5a/artifacts
+end_time: 1725933528384
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 43b62f92c62941bf8f00d3bb2c920d5a
+run_name: languid-kit-574
+run_uuid: 43b62f92c62941bf8f00d3bb2c920d5a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725933526484
+status: 4
+tags: []
+user_id: quinntate

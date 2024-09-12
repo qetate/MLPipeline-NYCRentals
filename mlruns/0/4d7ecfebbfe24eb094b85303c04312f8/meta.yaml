@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/4d7ecfebbfe24eb094b85303c04312f8/artifacts
+end_time: 1725833865124
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4d7ecfebbfe24eb094b85303c04312f8
+run_name: upbeat-deer-231
+run_uuid: 4d7ecfebbfe24eb094b85303c04312f8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725833854977
+status: 3
+tags: []
+user_id: quinntate

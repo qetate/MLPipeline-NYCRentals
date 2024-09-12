@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/9a6f4ff1628648c8b4f3994c46550281/artifacts
+end_time: 1725937464502
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9a6f4ff1628648c8b4f3994c46550281
+run_name: funny-mouse-758
+run_uuid: 9a6f4ff1628648c8b4f3994c46550281
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725937455335
+status: 3
+tags: []
+user_id: quinntate

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/97dc4516213e4cd1a9f7586a1959930a/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 97dc4516213e4cd1a9f7586a1959930a
+run_name: puzzled-ram-910
+run_uuid: 97dc4516213e4cd1a9f7586a1959930a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725836053166
+status: 1
+tags: []
+user_id: quinntate

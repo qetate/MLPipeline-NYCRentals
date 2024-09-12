@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/cdf0a86e23704b4f96a92e0daeec8a57/artifacts
+end_time: 1725837536533
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cdf0a86e23704b4f96a92e0daeec8a57
+run_name: learned-steed-165
+run_uuid: cdf0a86e23704b4f96a92e0daeec8a57
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725837526284
+status: 4
+tags: []
+user_id: quinntate

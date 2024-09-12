@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/0a55af7681c14b7594b48e53556da281/artifacts
+end_time: 1725836567098
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0a55af7681c14b7594b48e53556da281
+run_name: receptive-elk-830
+run_uuid: 0a55af7681c14b7594b48e53556da281
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725836494453
+status: 3
+tags: []
+user_id: quinntate

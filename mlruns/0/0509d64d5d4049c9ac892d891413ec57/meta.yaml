@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/0509d64d5d4049c9ac892d891413ec57/artifacts
+end_time: 1725934991255
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0509d64d5d4049c9ac892d891413ec57
+run_name: classy-snail-89
+run_uuid: 0509d64d5d4049c9ac892d891413ec57
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725934981567
+status: 3
+tags: []
+user_id: quinntate

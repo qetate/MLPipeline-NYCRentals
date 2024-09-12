@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/195915b2a1ae484a8b9e54443132c5ea/artifacts
+end_time: 1725838936095
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 195915b2a1ae484a8b9e54443132c5ea
+run_name: persistent-frog-184
+run_uuid: 195915b2a1ae484a8b9e54443132c5ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725838920326
+status: 4
+tags: []
+user_id: quinntate

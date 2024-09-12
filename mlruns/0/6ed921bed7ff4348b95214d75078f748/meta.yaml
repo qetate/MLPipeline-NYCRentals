@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/6ed921bed7ff4348b95214d75078f748/artifacts
+end_time: 1725835513833
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6ed921bed7ff4348b95214d75078f748
+run_name: enthused-pig-424
+run_uuid: 6ed921bed7ff4348b95214d75078f748
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725835474505
+status: 3
+tags: []
+user_id: quinntate

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/74c0c6270e2c463c976946abbc6f2213/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 74c0c6270e2c463c976946abbc6f2213
+run_name: carefree-hound-363
+run_uuid: 74c0c6270e2c463c976946abbc6f2213
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725836289668
+status: 1
+tags: []
+user_id: quinntate

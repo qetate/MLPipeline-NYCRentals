@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/7ec73dd07f6a4b058b2b45b38c2eb85d/artifacts
+end_time: 1725839057741
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7ec73dd07f6a4b058b2b45b38c2eb85d
+run_name: lyrical-trout-167
+run_uuid: 7ec73dd07f6a4b058b2b45b38c2eb85d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725839023538
+status: 4
+tags: []
+user_id: quinntate

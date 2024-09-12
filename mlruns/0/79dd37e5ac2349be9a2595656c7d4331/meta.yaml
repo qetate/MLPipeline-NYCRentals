@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/79dd37e5ac2349be9a2595656c7d4331/artifacts
+end_time: 1725838428335
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 79dd37e5ac2349be9a2595656c7d4331
+run_name: inquisitive-rook-664
+run_uuid: 79dd37e5ac2349be9a2595656c7d4331
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725838417303
+status: 4
+tags: []
+user_id: quinntate

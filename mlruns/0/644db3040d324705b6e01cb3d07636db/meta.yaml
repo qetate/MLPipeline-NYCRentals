@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/644db3040d324705b6e01cb3d07636db/artifacts
+end_time: 1725937608314
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 644db3040d324705b6e01cb3d07636db
+run_name: capable-bear-202
+run_uuid: 644db3040d324705b6e01cb3d07636db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725937510633
+status: 3
+tags: []
+user_id: quinntate

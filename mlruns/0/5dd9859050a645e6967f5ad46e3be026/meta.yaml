@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/5dd9859050a645e6967f5ad46e3be026/artifacts
+end_time: 1725935945826
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5dd9859050a645e6967f5ad46e3be026
+run_name: fearless-squid-603
+run_uuid: 5dd9859050a645e6967f5ad46e3be026
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725935899395
+status: 3
+tags: []
+user_id: quinntate

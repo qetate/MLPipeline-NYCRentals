@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/034659cdc4954844851322a65c7a14dd/artifacts
+end_time: 1725838398639
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 034659cdc4954844851322a65c7a14dd
+run_name: zealous-dove-616
+run_uuid: 034659cdc4954844851322a65c7a14dd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725838389406
+status: 4
+tags: []
+user_id: quinntate

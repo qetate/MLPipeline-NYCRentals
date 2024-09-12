@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d230979ad5b34c829fa83f605eab7d2e/artifacts
+end_time: 1725837225335
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d230979ad5b34c829fa83f605eab7d2e
+run_name: fortunate-robin-223
+run_uuid: d230979ad5b34c829fa83f605eab7d2e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725837215621
+status: 4
+tags: []
+user_id: quinntate

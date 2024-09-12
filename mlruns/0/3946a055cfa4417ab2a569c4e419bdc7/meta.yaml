@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/3946a055cfa4417ab2a569c4e419bdc7/artifacts
+end_time: 1725937478975
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3946a055cfa4417ab2a569c4e419bdc7
+run_name: learned-bat-112
+run_uuid: 3946a055cfa4417ab2a569c4e419bdc7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725937464527
+status: 3
+tags: []
+user_id: quinntate

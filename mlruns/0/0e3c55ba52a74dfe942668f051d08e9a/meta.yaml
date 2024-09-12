@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/0e3c55ba52a74dfe942668f051d08e9a/artifacts
+end_time: 1725936034463
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0e3c55ba52a74dfe942668f051d08e9a
+run_name: masked-crab-573
+run_uuid: 0e3c55ba52a74dfe942668f051d08e9a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725935979829
+status: 3
+tags: []
+user_id: quinntate

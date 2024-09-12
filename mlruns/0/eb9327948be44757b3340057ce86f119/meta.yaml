@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/eb9327948be44757b3340057ce86f119/artifacts
+end_time: 1725934353708
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eb9327948be44757b3340057ce86f119
+run_name: charming-slug-987
+run_uuid: eb9327948be44757b3340057ce86f119
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725934329961
+status: 4
+tags: []
+user_id: quinntate

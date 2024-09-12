@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/847121eec2cb48a394c78638b2456a4e/artifacts
+end_time: 1725837194040
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 847121eec2cb48a394c78638b2456a4e
+run_name: upbeat-conch-649
+run_uuid: 847121eec2cb48a394c78638b2456a4e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725837170529
+status: 4
+tags: []
+user_id: quinntate

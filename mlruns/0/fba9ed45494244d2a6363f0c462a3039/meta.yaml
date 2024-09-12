@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/fba9ed45494244d2a6363f0c462a3039/artifacts
+end_time: 1725933079919
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fba9ed45494244d2a6363f0c462a3039
+run_name: welcoming-fowl-993
+run_uuid: fba9ed45494244d2a6363f0c462a3039
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725933064392
+status: 3
+tags: []
+user_id: quinntate

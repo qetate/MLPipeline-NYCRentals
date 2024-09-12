@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/e39a56ddadd54e3f954de0eb13fcb99f/artifacts
+end_time: 1725935012017
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e39a56ddadd54e3f954de0eb13fcb99f
+run_name: popular-ram-558
+run_uuid: e39a56ddadd54e3f954de0eb13fcb99f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725935002535
+status: 3
+tags: []
+user_id: quinntate

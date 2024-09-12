@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f1c5d54e872342418ec851915a605743/artifacts
+end_time: 1725934910962
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f1c5d54e872342418ec851915a605743
+run_name: persistent-bird-707
+run_uuid: f1c5d54e872342418ec851915a605743
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725934885766
+status: 4
+tags: []
+user_id: quinntate

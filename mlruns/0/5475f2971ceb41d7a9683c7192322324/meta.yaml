@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/5475f2971ceb41d7a9683c7192322324/artifacts
+end_time: 1725838699937
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5475f2971ceb41d7a9683c7192322324
+run_name: aged-moth-833
+run_uuid: 5475f2971ceb41d7a9683c7192322324
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725838676085
+status: 4
+tags: []
+user_id: quinntate

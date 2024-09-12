@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/8cad525fc4c34b559e6c28f0274d72b0/artifacts
+end_time: 1725935042701
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8cad525fc4c34b559e6c28f0274d72b0
+run_name: honorable-midge-511
+run_uuid: 8cad525fc4c34b559e6c28f0274d72b0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725935034900
+status: 3
+tags: []
+user_id: quinntate

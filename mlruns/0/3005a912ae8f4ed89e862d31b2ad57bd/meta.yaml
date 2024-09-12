@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/quinntate/Project-Build-an-ML-Pipeline-Starter/mlruns/0/3005a912ae8f4ed89e862d31b2ad57bd/artifacts
+end_time: 1725838110862
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3005a912ae8f4ed89e862d31b2ad57bd
+run_name: loud-shrimp-564
+run_uuid: 3005a912ae8f4ed89e862d31b2ad57bd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725838101187
+status: 4
+tags: []
+user_id: quinntate
